@@ -1,7 +1,7 @@
 const { Pool } = require('pg');
+require('dotenv').config();
 
-const connectionString =
-  "postgresql://postgres:fAW7rLEKWpN1PKZ8qU1f@containers-us-west-169.railway.app:6754/railway";
+const connectionString = process.env.DATABASE_URL;
 
 const pool = new Pool({
   connectionString,
