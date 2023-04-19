@@ -1,0 +1,7 @@
+front end
+add reset button to ux to reset session
+add field to submit answer 
+
+
+back end
+make route for seperate sessions
